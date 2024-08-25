@@ -13,7 +13,8 @@ export default {
 <style scoped>
 .base-card {
   border-radius: 16px;
-  padding: 20px 32px;
+  padding: 12px 20px;
+  box-sizing: border-box;
   background: #011F35;
   color: #ffffff;
 }
