@@ -140,7 +140,6 @@ export default {
     width: 100%;
     max-width: 1440px;
     height: 191px;
-    margin-bottom: 32px;
     background: #023A6233;
     border-radius: 20px;
     display: flex;
