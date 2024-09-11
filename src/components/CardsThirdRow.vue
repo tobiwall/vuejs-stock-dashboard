@@ -48,15 +48,15 @@ h2 {
     height: 300px;
 
     .left-baseCard {
-        width: 34%;
+        flex-grow: 1; /* Dynamisch anpassen */
     }
-
+    
     .middle-baseCard {
-        width: 25%;
+        flex-grow: 1; /* Dynamisch anpassen */
     }
-
+    
     .right-baseCard {
-        width: 41%;
+        width: calc(40% - 12px); /* Gleiche Breite wie die rechte Karte in der oberen Reihe */
     }
 }
 </style>
